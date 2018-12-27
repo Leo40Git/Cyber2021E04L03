@@ -12,9 +12,11 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:text='Write something in the field below and press "Apply"!'
-        android:textColor="#FF0000"
-        android:textStyle="bold" />
+        android:textColor="#d50000"
+        android:textStyle="bold"
+        android:typeface="serif" />
 
     <Space
         android:layout_width="match_parent"
@@ -25,8 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Write something here..."
-        android:inputType="textPersonName" />
+        android:hint="Write something here..." />
 
     <Space
         android:layout_width="match_parent"
